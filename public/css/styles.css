@@ -101,7 +101,7 @@ html, body {
 
 .title {
     margin: 0px auto;
-    text-align: middle;
+    text-align: center;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
     white-space: nowrap;
