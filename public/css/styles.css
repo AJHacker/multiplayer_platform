@@ -128,6 +128,10 @@ html, body {
     margin: 20px;
     text-align: center;
 }
+.buttons{
+ width:100%;
+ text-align: center;
+}
 
 
 /* ******************************
@@ -181,6 +185,11 @@ html, body {
 .info input#inputPlayerName {
     width: 90%;
 }
+.buttons{
+ width:100%;
+ text-align: center;
+}
+
 
 
 /* ******************************
@@ -218,6 +227,10 @@ html, body {
 .createGameWrapper .gameId {
     font-size: 8em;
 }
+.buttons{
+ width:100%;
+ text-align: center;
+}
 
 
 
@@ -246,6 +259,11 @@ html, body {
     font-size: 3em;
     color: #AE37B2;
 }
+.buttons{
+ width:100%;
+ text-align: center;
+}
+
 
 
 
