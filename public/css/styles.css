@@ -185,7 +185,7 @@ html, body {
 .info input#inputPlayerName {
     width: 90%;
 }
-.buttons{
+.backButtonWrapper{
  width:100%;
  text-align: center;
 }
