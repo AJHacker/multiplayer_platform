@@ -111,6 +111,19 @@ html, body {
 }
 
 /* ******************************
+           INFO SCREEN
+      (info-game-template)
+   ****************************** */
+
+
+.infoScreenWrapper{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* ******************************
           START SCREEN
      (create-game-template)
    ****************************** */
