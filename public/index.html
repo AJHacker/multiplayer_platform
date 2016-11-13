@@ -25,14 +25,13 @@
         <div class="titleWrapper">
 
             <div class="title">
-                Sharks and Minnows
+                ANAGRAMMATIX
             </div>
 
             <div class="buttons">
 
-                <button id="btnCreateGame" class="btn left">Create</button>
-                <button id="btnJoinGame" class="btn right">Enter Hell</button>
-                <button id="btnInfo" class="btn bottom">Information</button>
+                <button id="btnCreateGame" class="btn left">CREATE</button>
+                <button id="btnJoinGame" class="btn right">JOIN</button>
                 <div style="clear:both"></div>
             </div>
 
@@ -46,19 +45,11 @@
 
             <div class="info">Open this site on your mobile device:</div>
             <div id="gameURL" class="infoBig">Error!</div>
-            
 
             <div class="info">Then click <strong>JOIN</strong> and <br/> enter the following Game ID:</div>
             <div id="spanNewGameCode" class="gameId">Error!</div>
 
             <div id="playersWaiting"></div>
-        </div>
-    </script>
-    
-    <!--This screen appears when a player clicks "Information" on the Title Screen-->
-    <script id="information-tab-template" type="text/template">
-        <div class="informationWrapper">
-            <div class="info"> Face the sharks and survive </div>
         </div>
     </script>
 
@@ -76,7 +67,6 @@
             </div>
 
             <div class="info buttons">
-                <button id="btnBack" class="btn bot">Back</button>
                 <button id="btnStart" class="btn">Start</button>
                 <div id="playerWaitingMessage"></div>
             </div>
@@ -84,23 +74,18 @@
     </script>
 
     <!-- This is the 'Host' screen. It displays the word for each player to match -->
-    <body onload="startGame()">
-    <script>
-
-    function startGame() {
-        myGameArea.start();
-    }
-
-    var myGameArea = {
-        canvas : document.createElement("canvas"),
-        start : function() {
-            this.canvas.width = 480;
-            this.canvas.height = 270;
-            this.context = this.canvas.getContext("2d");
-            document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-        }
-    }
-
+    <script id="host-game-template" type="text/template">
+        <div id="wordArea">
+            <div id="hostWord">5</div>
+        </div>
+        <div id="playerScores">
+            <div id="player1Score" class="playerScore">
+                <span class="score">0</span><span class="playerName">Player 1</span>
+            </div>
+            <div id="player2Score" class="playerScore">
+                <span class="playerName">Player 2</span><span class="score">0</span>
+            </div>
+        </div>
     </script>
 
     <!-- JavaScript Libraries -->
