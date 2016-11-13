@@ -444,13 +444,13 @@ jQuery(function($){
             onPlayerFoodClick: function(){
                 App.$gameArea.html(App.$templateFoodPoll);
               
-            }
+            },
             onPlayerPlacesClick: function(){
                 App.$gameArea.html(App.$templatePlacesPoll);
-            }
+            },
             onPlayerPeopleClick: function(){
                 App.$gameArea.html(App.$templatePeoplePoll);
-            }
+            },
             
             onPlayerInfoClick: function(){
                  App.$gameArea.html(App.$templateInformationScreen);
