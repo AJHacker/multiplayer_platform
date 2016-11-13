@@ -27,7 +27,7 @@ html, body {
     display: inline-block;
     height: 100%;
     width: 33%;
-    margin-bottom: 0;
+    margin-bottom: 10;
     color: #A22FB0;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
@@ -92,11 +92,11 @@ html, body {
     horizontal-align: middle;
 /*    vertical-align: top;
     text-align: top;
+*/
     bottom: 0;
     left: 0;
     top: 0;
     right: 0;
- */
 }
 
 .title {
