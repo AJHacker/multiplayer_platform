@@ -1,5 +1,8 @@
 /* global Phaser RemotePlayer io */
 
+module.exports = create
+   
+
 var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render })
 
 function preload () {
@@ -18,8 +21,7 @@ var enemies
 
 var currentSpeed = 0
 var cursors
-
-function create () {
+var create = function () {
   socket = io.connect()
 
   // Resize our game world to be a 2000 x 2000 square
