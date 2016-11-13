@@ -170,6 +170,9 @@ jQuery(function($){
             App.$templateJoinGame = $('#join-game-template').html();
             App.$hostGame = $('#host-game-template').html();
             App.$templateInformationScreen=$('#information-tab-template').html();
+            App.$templateFoodPoll=$('#food-poll-template').html();
+            App.$templatePeoplePoll=$('#people-poll-template').html();
+            App.$templatePlacesPoll=$('#places-poll-template').html();
         },
 
         /**
@@ -186,6 +189,9 @@ jQuery(function($){
             App.$doc.on('click', '#btnPlayerRestart', App.Player.onPlayerRestart);
             App.$doc.on('click', '#btnBack', App.showInitScreen);
             App.$doc.on('click', '#btnInfo', App.Player.onPlayerInfoClick);
+            App.$doc.on('click', '#btn Food', App.Player.onPlayerFoodClick);
+            App.$doc.on('click', '#btn People', App.Player.onPlayerPeopleClick);
+            App.$doc.on('click', '#btn Places', App.Player.onPlayerPlacesClick);
         },
 
         /* *************************************
@@ -435,6 +441,16 @@ jQuery(function($){
              */
             myName: '',
             
+            onPlayerFoodClick: function(){
+                App.$gameArea.html(App.$templateFoodPoll);
+              
+            }
+            onPlayerPlacesClick: function(){
+                App.$gameArea.html(App.$templatePlacesPoll);
+            }
+            onPlayerPeopleClick: function(){
+                App.$gameArea.html(App.$templatePeoplePoll);
+            }
             
             onPlayerInfoClick: function(){
                  App.$gameArea.html(App.$templateInformationScreen);
