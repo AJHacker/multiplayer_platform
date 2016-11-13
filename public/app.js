@@ -173,6 +173,7 @@ jQuery(function($){
             App.$templateFoodPoll=$('#food-poll-template').html();
             App.$templatePeoplePoll=$('#people-poll-template').html();
             App.$templatePlacesPoll=$('#places-poll-template').html();
+            App.$templateMexicanPoll=$('#mexican-food-template').html();
         },
 
         /**
@@ -192,6 +193,7 @@ jQuery(function($){
             App.$doc.on('click', '#btnFood', App.Player.onPlayerFoodClick);
             App.$doc.on('click', '#btnPeople', App.Player.onPlayerPeopleClick);
             App.$doc.on('click', '#btnPlaces', App.Player.onPlayerPlacesClick);
+            App.$doc.on('click', '#btnMexican',App.player.onPlayerMexicanClick);
         },
 
         /* *************************************
@@ -450,6 +452,9 @@ jQuery(function($){
             },
             onPlayerPeopleClick: function(){
                 App.$gameArea.html(App.$templatePeoplePoll);
+            },
+            onPlayerMexicanClick: function()   {
+                App.$gameArea.html(App.$templateMexicanPoll);
             },
             
             onPlayerInfoClick: function(){
