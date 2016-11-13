@@ -26,8 +26,8 @@ html, body {
 .btn {
     display: inline-block;
     height: 100%;
-    width: 49%;
-    margin-bottom: 10;
+    width: 33%;
+    margin-bottom: 0;
     color: #A22FB0;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
