@@ -4,11 +4,12 @@
   Mid Green : #A8FF56
        Lite : #ECFFE0
 Dark Purple : #A22FB0
+Weird Blue  : #62929E
 
 */
 
 html, body {
-    background-color: #78BD4C;
+    background-color: #62929E;
     height: 100%;
     width: 100%;
     margin: 0;
