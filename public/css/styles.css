@@ -148,6 +148,12 @@ html, body {
     font-size: 2em;
     margin-top: 1.5em;
 }
+.createGameWrapper .infoBig{
+    color: #ECFFE0;
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
 
 .createGameWrapper{
     color: #AE37B2;
