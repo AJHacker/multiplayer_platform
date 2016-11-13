@@ -140,15 +140,30 @@ html, body {
 
 
 .infoScreenWrapper{
-     font-family: Copperplate,sans-serif;
+    font-family: Copperplate,sans-serif;
     margin: 20px;
     text-align: center;
 }
 .buttons{
- width:100%;
- text-align: center;
+    width:100%;
+    text-align: center;
 }
 
+/* ******************************
+         PEOPLE SCREEN
+      (peopl-poll-template)
+****************************** */
+.peopleScreenWrapper{
+      font-family: Copperplate,sans-serif;    
+      margin: 20px;    
+      text-align: center;
+}
+
+.buttons{ 
+      width:100%; 
+      text-align: 
+      center;
+}
 
 /* ******************************
           START SCREEN
