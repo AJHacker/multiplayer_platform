@@ -329,7 +329,7 @@ jQuery(function($){
              */
             newWord : function(data) {
                 // Insert the new word into the DOM
-                game.create();
+                //game.create();
                 $('#hostWord').text(data.word);
                 App.doTextFit('#hostWord');
 
