@@ -101,6 +101,7 @@ html, body {
     text-align: left;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
+    white-space: nowrap;
     color: #ECFFE0;
     font-weight: 300;
 }
@@ -118,7 +119,7 @@ html, body {
 
 .infoScreenWrapper{
     font-family: 'Quicksand', sans-serif;
-    margin: 0 auto;
+    margin: 10 auto;
     text-align: center;
 }
 
