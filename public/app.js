@@ -181,7 +181,7 @@ jQuery(function($){
             App.$doc.on('click', '#btnStart',App.Player.onPlayerStartClick);
             App.$doc.on('click', '.btnAnswer',App.Player.onPlayerAnswerClick);
             App.$doc.on('click', '#btnPlayerRestart', App.Player.onPlayerRestart);
-            App.$doc.on('click', '#btnBack', App.Host.onCreateClick);
+            App.$doc.on('click', '#btnBack', App.Host.onBackButtonClick);
         },
 
         /* *************************************
@@ -225,6 +225,12 @@ jQuery(function($){
              */
             currentCorrectAnswer: '',
 
+            
+            onBackButtonClick: function() {
+                // console.log('Clicked "Back"');
+                IO.socket.emit('hostBack'));
+            },
+            
             /**
              * Handler for the "Start" button on the Title Screen.
              */
