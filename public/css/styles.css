@@ -97,7 +97,7 @@ html, body {
 
 .title {
     margin: 0px auto;
-    text-align: center;
+    text-align: left;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
     color: #ECFFE0;
