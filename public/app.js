@@ -181,7 +181,7 @@ jQuery(function($){
             App.$doc.on('click', '#btnStart',App.Player.onPlayerStartClick);
             App.$doc.on('click', '.btnAnswer',App.Player.onPlayerAnswerClick);
             App.$doc.on('click', '#btnPlayerRestart', App.Player.onPlayerRestart);
-            App.$doc.on('click', '#btnBack',App.Player.onJoinClick);
+            App.$doc.on('click', '#btnBack', App.Host.onCreateClick);
         },
 
         /* *************************************
