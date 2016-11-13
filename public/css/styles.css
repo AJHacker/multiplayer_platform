@@ -90,6 +90,8 @@ html, body {
     width: 96%;
     margin: auto;
     horizontal-align: middle;
+    vertical-align: top;
+    text-align: top;
 /*    bottom: 0;
     left: 0;
     top: 0;
