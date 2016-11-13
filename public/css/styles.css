@@ -14,7 +14,6 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-   font-size:2em;
 }
 
 
@@ -137,7 +136,6 @@ html, body {
 .createGameWrapper, .joinGameWrapper, .gameOver {
     font-family: 'Quicksand', sans-serif;
     margin: 0 auto;
- font size: 2em;
     text-align: center;
 }
 
