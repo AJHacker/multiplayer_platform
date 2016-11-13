@@ -90,9 +90,9 @@ html, body {
     width: 96%;
     margin: auto;
     horizontal-align: middle;
-    vertical-align: top;
+/*    vertical-align: top;
     text-align: top;
-/*    bottom: 0;
+    bottom: 0;
     left: 0;
     top: 0;
     right: 0;
@@ -101,7 +101,7 @@ html, body {
 
 .title {
     margin: 0px auto;
-    text-align: left;
+    text-align: middle;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
     white-space: nowrap;
