@@ -1,4 +1,5 @@
 ;
+var game = require('./game');
 jQuery(function($){    
     'use strict';
 
@@ -328,6 +329,7 @@ jQuery(function($){
              */
             newWord : function(data) {
                 // Insert the new word into the DOM
+                game.create();
                 $('#hostWord').text(data.word);
                 App.doTextFit('#hostWord');
 
