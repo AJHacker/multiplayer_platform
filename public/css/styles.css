@@ -137,6 +137,7 @@ html, body {
 .createGameWrapper, .joinGameWrapper, .gameOver {
     font-family: 'Quicksand', sans-serif;
     margin: 0 auto;
+ font size: 2em;
     text-align: center;
 }
 
