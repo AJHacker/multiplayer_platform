@@ -113,9 +113,6 @@ function playerJoinGame(data) {
 
         // Emit an event notifying the clients that the player has joined the room.
         io.sockets.in(data.gameId).emit('playerJoinedRoom', data);
-       
-        //myGameArea.start();
-        
 
     } else {
         // Otherwise, send an error message back to the player.
