@@ -15,7 +15,7 @@ html, body {
     margin: 0;
     padding: 0;
     margin-top: 1.5em;
-  font-family: Copperplate,sans-serif;
+
 }
 
 
@@ -31,7 +31,7 @@ html, body {
     width: 33%;
     margin-bottom: 5%;
     color: #A22FB0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Copperplate,sans-serif;
     font-weight: 700;
     font-size: 1em;
     line-height: 1.6;
@@ -87,7 +87,7 @@ html, body {
 }
 
 .titleWrapper {
-    font-family: 'Quicksand', sans-serif;
+     font-family: Copperplate,sans-serif;
     font-weight: 400;
     height: 50%;
     width: 96%;
@@ -106,7 +106,7 @@ html, body {
     margin: 0px auto;
     text-align: center;
     width: 100%;
-    font-family: 'Quicksand', sans-serif;
+     font-family: Copperplate,sans-serif;
     white-space: nowrap;
     font-size:20vh;
     color: #ECFFE0;
@@ -125,7 +125,7 @@ html, body {
 
 
 .infoScreenWrapper{
-    font-family: 'Quicksand', sans-serif;
+     font-family: Copperplate,sans-serif;
     margin: 20px;
     text-align: center;
 }
@@ -141,7 +141,7 @@ html, body {
    ****************************** */
 
 .createGameWrapper, .joinGameWrapper, .gameOver {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Copperplate,sans-serif;
     margin: 0 auto;
  font size: 2em;
     text-align: center;
@@ -174,7 +174,7 @@ html, body {
     padding: 10px;
     width: 200px;
     height: 60px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Copperplate,sans-serif;
     color: #A22FB0;
     font-weight: 300;
     font-size: 54px;
@@ -275,7 +275,7 @@ html, body {
 
 /* Absolute Centering: http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/ */
 #wordArea {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Copperplate,sans-serif;
     font-weight: 400;
     position: absolute;
     height: 50%;
@@ -295,7 +295,7 @@ html, body {
 #hostWord h2, #btnPlayerRestart h3 {
     font-size: 161px;
     line-height: 1em;
-    font-family: 'Quicksand', sans-serif;
+     font-family: Copperplate,sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -313,7 +313,7 @@ html, body {
     width: 50%;
     padding: 0;
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+     font-family: Copperplate,sans-serif;
     font-weight: 400;
     height: 100%;
 }
