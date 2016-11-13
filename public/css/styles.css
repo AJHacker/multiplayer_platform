@@ -89,10 +89,12 @@ html, body {
     height: 50%;
     width: 96%;
     margin: auto;
-    bottom: 0;
+    horizontal-align: middle;
+/*    bottom: 0;
     left: 0;
     top: 0;
     right: 0;
+ */
 }
 
 .title {
