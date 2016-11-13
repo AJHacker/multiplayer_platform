@@ -119,6 +119,21 @@ html, body {
 }
 
 /* ******************************
+            FOOD SCREEN
+        (food-poll-template)
+****************************** */
+.foodScreenWrapper{     
+    font-family: Copperplate,sans-serif;    
+    margin: 20px;    
+    text-align: 
+    center;
+}
+
+.buttons{ 
+    width:100%; 
+    text-align: center;
+}
+/* ******************************
            INFO SCREEN
       (info-game-template)
    ****************************** */
