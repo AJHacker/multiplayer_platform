@@ -33,10 +33,10 @@ html, body {
     font-weight: 700;
     font-size: 2em;
     line-height: 1.2;
-    /*text-align: center;*/
+    text-align: center;
     background-color: #8AD453;
     white-space: nowrap;
-    /*vertical-align: middle;*/
+    vertical-align: middle;
     cursor: pointer;
     border: 1px solid transparent;
     -webkit-user-select: none;
