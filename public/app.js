@@ -189,9 +189,9 @@ jQuery(function($){
             App.$doc.on('click', '#btnPlayerRestart', App.Player.onPlayerRestart);
             App.$doc.on('click', '#btnBack', App.showInitScreen);
             App.$doc.on('click', '#btnInfo', App.Player.onPlayerInfoClick);
-            App.$doc.on('click', '#btn Food', App.Player.onPlayerFoodClick);
-            App.$doc.on('click', '#btn People', App.Player.onPlayerPeopleClick);
-            App.$doc.on('click', '#btn Places', App.Player.onPlayerPlacesClick);
+            App.$doc.on('click', '#btnFood', App.Player.onPlayerFoodClick);
+            App.$doc.on('click', '#btnPeople', App.Player.onPlayerPeopleClick);
+            App.$doc.on('click', '#btnPlaces', App.Player.onPlayerPlacesClick);
         },
 
         /* *************************************
