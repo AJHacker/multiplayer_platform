@@ -1,5 +1,6 @@
-;
 var game = require('./game');
+
+;
 jQuery(function($){    
     'use strict';
 
