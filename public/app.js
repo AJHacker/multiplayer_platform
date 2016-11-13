@@ -167,6 +167,7 @@ jQuery(function($){
             App.$templateNewGame = $('#create-game-template').html();
             App.$templateJoinGame = $('#join-game-template').html();
             App.$hostGame = $('#host-game-template').html();
+            App.$templateInformationScreen=$('#information-tab-template').html();
         },
 
         /**
@@ -182,6 +183,7 @@ jQuery(function($){
             App.$doc.on('click', '.btnAnswer',App.Player.onPlayerAnswerClick);
             App.$doc.on('click', '#btnPlayerRestart', App.Player.onPlayerRestart);
             App.$doc.on('click', '#btnBack', App.Player.onJoinClick);
+            App.$doc.on('click', '#btnInfo', App.Player.onPlayerInfoClick);
         },
 
         /* *************************************
@@ -429,10 +431,17 @@ jQuery(function($){
              * The player's name entered on the 'Join' screen.
              */
             myName: '',
+            
+            
+            onPlayerInfoClick: function(){
+                 App.$gameArea.html(App.$templateInformationScreen);
+            },
 
             /**
              * Click handler for the 'JOIN' button
              */
+
+            
             onJoinClick: function () {
                 // console.log('Clicked "Join A Game"');
 
@@ -460,7 +469,8 @@ jQuery(function($){
                 App.myRole = 'Player';
                 App.Player.myName = data.playerName;
             },
-
+   
+  
             /**
              *  Click handler for the Player hitting a word in the word list.
              */
